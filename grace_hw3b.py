@@ -4,24 +4,29 @@
 
 #---Part B---
 
-# TODO: Everything
+# TODO: add input and prompts
 
-def CelsiusToFahrenheit():
-    pass
+def CelsiusToFahrenheit(temp):
+    # F = C * (9/5) + 32
+    return temp * (9/5) + 32
 
-def CelsiusToKelvin():
-    pass
+def CelsiusToKelvin(temp):
+    # K = C + 273.15
+    return temp + 273.15
 
-def FahrenheitToCelsius():
-    pass
+def FahrenheitToCelsius(temp):
+    # C = (F - 32) * (5/9)
+    return (temp - 32) * (5/9)
 
-def FahrenheitToKelvin():
-    pass
+def FahrenheitToKelvin(temp):
+    # K = ((F - 32) * (5/9)) + 273.15
+    return ((temp - 32) * (5/9)) + 273.15
 
-def KelvinToCelsius():
-    pass
+def KelvinToCelsius(temp):
+    # C = K - 273.15
+    return temp - 273.15
 
-def KelvinToFahrenheit():
-    pass
-
+def KelvinToFahrenheit(temp):
+    # F = (K - 273.15) * (9/5) + 32
+    return (temp - 273.15) * (9/5) + 32
 
